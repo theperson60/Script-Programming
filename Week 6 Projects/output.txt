@@ -1,0 +1,13 @@
+   1> inputFilename = input("Enter input file name: ")
+   2> outputFilename = input("Enter output file name: ")
+   3> 
+   4> inputFile = open(inputFilename, 'r')
+   5> outputFile = open(outputFilename, 'w')
+   6> 
+   7> count = 1
+   8> for line in inputFile:
+   9>     outputFile.write("{:>4}> {}".format(count, line))
+  10>     count += 1
+  11> 
+  12> inputFile.close()
+  13> outputFile.close()
