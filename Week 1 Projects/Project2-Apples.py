@@ -1,4 +1,4 @@
-name = "Logan Apples"
-address = "1234 Road Rd. Oklahoma City, OK 73135"
-phone = "(405) 123-4567"
+name = input("Enter name: ")
+address = input("Enter address: ")
+phone = input("Enter phone number: ")
 print(name, address, phone)
